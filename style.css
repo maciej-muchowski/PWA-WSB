@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('https://cdn.pixabay.com/photo/2020/02/02/19/55/cars-4814015_960_720.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+h1 {
+    text-align: center;
+    line-height: 160vh;
+    background-color: rgba(255, 255, 255, 0);
+    color: aliceblue;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.mondeo {
+    padding: 20px;
+}
+
+.mondeo-gen1-img {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/bd/1994_Ford_Mondeo_LX_1.8_Front.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.mondeo-gen2-img {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/31/2000_Ford_Mondeo_LX_2.0_Front.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.mondeo-gen3-img {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/7d/2001_Ford_Mondeo_LX_1.8_Front.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.mondeo-gen4-img {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/db/2009_Ford_Mondeo_Titanium_X_First_Patrol_2.0_Front.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.mondeo-gen5-img {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/05/2018_Ford_Mondeo_%28MD%29_Trend_liftback_%282018-11-22%29_01.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.mondeo-gen6-img {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/1b/Ford_Mondeo_V_in_Michigan_%28front%29.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.mondeo p {
+    line-height: 2;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(6, 7, 91);
+    color: white;
+    letter-spacing: 1px;
+}
+
+@media (min-width: 768px) {
+    main {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .mondeo {
+        width: 50%;
+    }
+}
