@@ -34,7 +34,7 @@ main {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 500px;
+    height: 50vh;
 }
 
 .mondeo-gen2-img {
@@ -43,7 +43,7 @@ main {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 500px;
+    height: 50vh;
 }
 
 .mondeo-gen3-img {
@@ -52,7 +52,7 @@ main {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 500px;
+    height: 50vh;
 }
 
 .mondeo-gen4-img {
@@ -61,7 +61,7 @@ main {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 500px;
+    height: 50vh;
 }
 
 .mondeo-gen5-img {
@@ -70,7 +70,7 @@ main {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 500px;
+    height: 50vh;
 }
 
 .mondeo-gen6-img {
@@ -79,7 +79,7 @@ main {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 500px;
+    height: 50vh;
 }
 
 .mondeo p {
